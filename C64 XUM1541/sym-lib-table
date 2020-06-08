@@ -1,2 +1,4 @@
 (sym_lib_table
+  (lib (name C64_IEC)(type Legacy)(uri "D:/owncloud/Documents/Projects/C64 XUM1541/common/library/C64_IEC.lib")(options "")(descr ""))
+  (lib (name arduino_pro_micro)(type Legacy)(uri "D:/owncloud/Documents/Projects/C64 XUM1541/common/library/arduino_pro_micro.lib")(options "")(descr ""))
 )
