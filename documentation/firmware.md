@@ -32,7 +32,7 @@ d64copy.exe 8 test.d64
 ![opencbm003]()
 If all goes well, this should make a copy of the disk in drive 8 to a file called *test.d64*. There is a more comprehensive manual that comes with opencbm, it goes into a lot more detail when it comes to describing the various functions that can be performed when using a XUM1541-device.
 
-Given that floppy disks are in a rapid rate of decay, I highly recommend saving the program output to a log file so that you have a record of any errors encountered while dumping the disks (probably can't fix them in any way, but atleast you'll know the disk had errors and don't expect everything to work later). One way of doing this can be as follows:
+Given that floppy disks are in a rapid rate of decay, I highly recommend saving the program output to a log file so that you have a record of any errors encountered while dumping the disks (probably can't fix them in any way, but atleast you'll know the disk had errors and don't expect everything to work later). One way of doing this can be as follows (to make things easier I'm using the supplied batch file):
 ```
 d64copy.exe -n 8 "disks\D15B.d64" > "disks\D15B.log" 2>&1
 ```
