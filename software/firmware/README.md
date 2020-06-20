@@ -1,0 +1,1 @@
+The firmware found in this directory was distributed as part of the repository at https://github.com/zyonee/opencbm/tree/master/xum1541, but I've included it here as I've not had much luck with the newer versions of it.
