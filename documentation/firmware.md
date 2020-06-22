@@ -11,7 +11,9 @@ avrdude -p m32u4 -c avr109 -P com10 -U flash:w:xum1541-PROMICRO-v07.hex
 ```
 ![avrdude001](https://github.com/tebl/C64-XUM1541/raw/master/documentation/images/avrdude001.png)
 ![avrdude002](https://github.com/tebl/C64-XUM1541/raw/master/documentation/images/avrdude002.png)
-Disconnect and then reconnect the Pro Micro to have the new firmware discovered by Windows, you'll then need to install the USB-driver which is done by using [Zadig](https://zadig.akeo.ie/). List all devices from the *options* dropdown-menu, then locate the XUM1541 device in the device listing. In the target section of the driver selection, click up/down until it says **libusb-win32**. Now you can finally click install/reinstall driver in a form that should hopefully work.
+Disconnect and then reconnect the Pro Micro to have the new firmware discovered by Windows, you'll then need to install the USB-driver which is done by using [Zadig](https://zadig.akeo.ie/). List all devices from the *options* dropdown-menu, then locate the XUM1541 device in the device listing. In the target section of the driver selection, click up/down until it says **libusb-win32**. Now you can finally click install/reinstall driver in a form that should hopefully work (refer to picture below if needed).
+
+![Zadig](https://github.com/tebl/C64-XUM1541/raw/master/documentation/images/avrdude004.png)
 
 **NB!** I could never get version v08 of the firmware to work, so unless that get's fixed I recommend staying with v07 (screenshots were from a failed attempt, so do what I wrote and not what is shown).
 

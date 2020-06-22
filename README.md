@@ -14,7 +14,7 @@ The module only consists of a handful of components, so just enure that get the 
 I you're building more than one of these, you probably won't need to install the reset switch on more than one of them (it is used when initially flashing the Arduino Pro Micro).
 
 ## Using the module
-Using the actual module is a chapter unto itself, so I've put together a separate [document](https://github.com/tebl/C64-XUM1541/blob/master/documentation/firmware.md) describing how to flash the Arduino Pro Micro with the correct firmware as well as set it up with the OpenCBM software for use on a Windows 10 computer. If you're on a different platform, you'll have to look up those guides separately as I only have the one laptop.
+Using the actual module is a chapter unto itself, so I've put together a separate [firmware installation document](https://github.com/tebl/C64-XUM1541/blob/master/documentation/firmware.md) describing how to flash the Arduino Pro Micro with the correct firmware as well as set it up with the OpenCBM software for use on a Windows 10 computer. If you're on a different platform, you'll have to look up those guides separately as I only have the one laptop.
 
 There is also an extensive document available that describes the various commands that can be used as part of the [OpenCBM](https://spiro.trikaliotis.net/opencbm#download)-package, this can be found within the install-folder on your computer. With everything working correctly, you're ready to start archiving and for those just wanting to start copying things the command you're looking for is probably the following:
 ```
@@ -37,8 +37,9 @@ Any part counts listed in parenthesis are optional, meaning you can skip install
 | A1           | Arduino Pro Micro *                    |     1 |
 | A1           | 12-pin headers                         |     2 |
 | A1           | 12-pin female pin headers              |   (2) |
-| C64_IEC      | Female S-terminal 6pin DIN PCB         |     1 |
 | D1           | 5mm LED                                |   (1) |    
+| J1           | Female S-terminal 6pin DIN PCB         |     1 |
+| J2           | 2x8 male pin headers                   |   (1) |
 | R1           | 330 ohm resistor                       |   (1) | 
 |              | 70x45x30mm electronic project box      |   (1) |
 | SW1          | 6x6x5mm right-angle momentary button   |     1 |
