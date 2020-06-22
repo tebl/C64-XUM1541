@@ -33,7 +33,7 @@ Any part counts listed in parenthesis are optional, meaning you can skip install
 
 | Reference    | Item                                  | Count |
 | ------------ | ------------------------------------- | ----- |
-| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com?inviteid=88707))          |     1 |
+| PCB          | Fabricate using Gerber files ([order](https://www.pcbway.com/project/shareproject/Commodore_64_XUM1541.html?inviteid=88707))          |     1 |
 | A1           | Arduino Pro Micro *                    |     1 |
 | A1           | 12-pin headers                         |     2 |
 | A1           | 12-pin female pin headers              |   (2) |
