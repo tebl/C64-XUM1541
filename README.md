@@ -24,7 +24,7 @@ d64copy.exe 8 disk.d64
 **WARNING!** A quick note on the hardware itself is that there is a recommended way of unplugging and plugging in cables, mainly to never do so with the power supplied to it. Commodore 64s and their associated hardware is slowly going extinct like the disks we're trying to archive, so please handle them with the care they deserve!
 
 # Schematic
-The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64-XUM1541/raw/master/C64%20XUM1541/export/C64%20XUM1541.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
+The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/C64-XUM1541/raw/master/documentation/schematic/C64%20XUM1541.pdf) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
 
 # BOM
 Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from ebay/AliExpress (free shipping, plan on usually waiting 3-4 weeks though). The list below should be everything you'll need in addition to a workable soldering iron and some 60/40 soldering tin.
